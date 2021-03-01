@@ -3,10 +3,26 @@
 .centering-box{
     text-align: center;
 }
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    font-weight: 600;
+}
 
 
-
+nav ul, .logo{
+    line-height: 2.1;
+}
 /* HEADER */
+ul{
+    text-align: right;
+    margin-top: 15px;
+}
 
 nav{
     background-color: #2c3e50;
@@ -26,4 +42,29 @@ nav .burger-menu{
 .colored-box{
     background-color: teal;
     height: 100px;
+}
+
+/* about */
+.about{
+    background-color: #1abc9c;
+    margin-top: 40px;
+    color: white;
+}
+.about .paragraph-box{
+    padding: 20px 40px; /* da cambiare quando in tablet/desktop mode. Al centro c'è meno spazio */
+}
+
+
+/* footer */
+footer{
+    background-color: #3a546d;
+    color: white;
+    /* posso fare queste ''modifiche che non si applicano direttamente alle classi di BS ?*/
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.darkest-footer{
+    background-color: #2c3e50;
+    padding: 15px 0;
 }
